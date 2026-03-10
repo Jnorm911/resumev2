@@ -2,11 +2,26 @@
 <div class="container education-container">
     {{> title value="Education"}} {{#each resume.education}}
     <section class="item">
-        {{> section-header name=this.institution }} {{#if location}}
+        {{#if institution}}
+        <h3 class="bold">{{institution}}</h3>
+        {{/if}}
+        {{#if location}}
         <h5 class="location">{{location}}</h5>
         {{/if}}
 
-        <h4>{{#if studyType}}{{studyType}} {{/if}}{{#if area}}{{area}}{{/if}}</h4>
+        <div class="section-header clearfix">
+            <h4 class="pull-left">{{#if studyType}}{{studyType}} {{/if}}{{#if area}}{{area}}{{/if}}</h4>
+            <h5 class="italic pull-right">
+                {{#if startDate}}
+                    <span class="startDate">{{formatDate startDate}}</span>
+                    {{#if endDate}}
+                    <span class="endDate"> - {{formatDate endDate}}</span>
+                    {{else}}
+                    <span class="endDate"> - Present</span>
+                    {{/if}}
+                {{/if}}
+            </h5>
+        </div>
 
         {{#if gpa}}
         <h5>{{gpa}}</h5>

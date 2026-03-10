@@ -11,7 +11,7 @@
       "region": "UT",
       "countryCode": "US"
     },
-    "summary": "Senior backend-focused full stack developer building secure, data-driven systems for government and healthcare organizations. Experienced integrating LLM APIs into production systems and guiding engineers in practical AI-assisted development workflows. Strong in .NET platforms, relational databases, cloud infrastructure, and secure API design. Focused on developer productivity, CI/CD integration, and privacy-aware platforms handling sensitive data.",
+    "summary": "Senior backend-focused full stack developer building secure, data-driven systems for government and healthcare organizations. Experienced integrating LLM APIs into production systems and guiding engineers in practical AI-assisted development workflows. Strong in .NET platforms, relational databases, cloud infrastructure, and secure API design. Focused on developer productivity, CI/CD integration, and privacy-aware platforms handling sensitive data. Known for delivering practical, production-ready solutions that integrate modern AI capabilities into secure enterprise systems.",
     "profiles": [
       {
         "network": "GitHub",
@@ -231,7 +231,6 @@
         "5-star rated theme",
         "2k+ downloads and climbing"
       ],
-      "startDate": "2023-02-23",
       "url": "https://marketplace.visualstudio.com/items/?itemName=T3nt4c135.androcula",
       "roles": [
         "Creator",
