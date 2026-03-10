@@ -1,0 +1,249 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Josh Norman",
+    "label": "Senior Full Stack Developer",
+    "email": "JoshNorman.Dev@gmail.com",
+    "phone": "(801) 651-2456",
+    "location": {
+      "address": "",
+      "city": "Salt Lake City",
+      "region": "UT",
+      "countryCode": "US"
+    },
+    "summary": "Senior backend-focused full stack developer building secure, data-driven systems for government and healthcare organizations. Experienced integrating LLM APIs into production systems and guiding engineers in practical AI-assisted development workflows. Strong in .NET platforms, relational databases, cloud infrastructure, and secure API design. Focused on developer productivity, CI/CD integration, and privacy-aware platforms handling sensitive data.",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "url": "https://github.com/Jnorm911"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/joshnorman911/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "U.S. Department of Education",
+      "location": "Salt Lake City, UT",
+      "position": "Senior Full Stack Developer",
+      "startDate": "2023-01-01",
+      "endDate": "2025-04-01",
+      "summary": "Senior technical contributor and co-lead on a large-scale government data platform supporting compliance workflows.",
+      "highlights": [
+        "Co-led backend and API development for a high-volume reporting system using C#, .NET, ASP.NET, Node, and SQL. Designed REST APIs with validation, auditing, and role-based access controls.",
+        "Modernized architecture to Angular 18 and RxJS, strengthening backend contracts and improving performance by 20%.",
+        "Integrated Databricks and Spark pipelines into reporting interfaces, improving processing efficiency and reducing costs by 15%.",
+        "Designed and optimized relational schemas supporting compliance-driven ingestion and reporting.",
+        "Collaborated with DevOps on secure Azure deployments implementing role-based access controls and configuration management.",
+        "Integrated LLM APIs into internal guidance systems, implementing role-based routing, structured prompts, and human escalation while mentoring engineers on AI-assisted development workflows."
+      ]
+    },
+    {
+      "name": "Optum",
+      "location": "Los Angeles, CA",
+      "position": "Full Stack Developer",
+      "startDate": "2022-01-01",
+      "endDate": "2023-01-01",
+      "summary": "Backend-focused engineer supporting regulated healthcare data platforms, collaborating with data scientists and cloud teams to build secure systems.",
+      "highlights": [
+        "Developed and enhanced backend services and APIs using Java, Spring, C#, and .NET, supporting high-volume healthcare workflows and internal reporting systems.",
+        "Migrated an acquired codebase into AWS infrastructure, building reusable GitHub Actions CI/CD pipelines adopted across teams.",
+        "Collaborated with data scientists to support Python analytics and ML workflows, ensuring secure processing in AWS and Databricks.",
+        "Optimized Databricks workloads and SQL solutions, reducing costs while maintaining performance and compliance.",
+        "Contributed to AI-enabled healthcare features including an LLM-assisted guidance chatbot, collaborating with data scientists and engineers to integrate AI safely into production workflows."
+      ]
+    },
+    {
+      "name": "MediaRif",
+      "location": "Salt Lake City, UT",
+      "position": "Full Stack Developer",
+      "startDate": "2018-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Versatile developer and UI specialist delivering responsive, SEO-optimized web applications that enhanced user experience and organic reach. Adapted quickly across diverse technology stacks to meet varied client requirements.",
+      "highlights": [
+        "Served as primary UI specialist on over 10 client projects, consistently delivering intuitive and engaging user interfaces using Angular, React, TypeScript, and JavaScript.",
+        "Achieved up to 40% improvement in organic traffic for client projects by implementing responsive design strategies and targeted SEO optimizations.",
+        "Developed and maintained robust CRUD applications, seamlessly integrating backend technologies including C#, .NET, ASP.NET, Java, Python, and Node.",
+        "Optimized SQL database designs and queries, significantly boosting application responsiveness and overall performance.",
+        "Adapted quickly across multiple technology stacks and frameworks, efficiently addressing diverse client needs and technical challenges."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Weber State University",
+      "url": "https://www.weber.edu/",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2012-01-01",
+      "endDate": "2016-09-01",
+      "score": "3.8",
+      "courses": [
+        "Angular",
+        "Java",
+        "SQL",
+        "C#",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "summary": "Active tutor, consistently made the Dean's List."
+    },
+    {
+      "institution": "Per Scholas",
+      "url": "https://perscholas.org/",
+      "area": "Full Stack Development",
+      "studyType": "Certificate",
+      "startDate": "2021-11-01",
+      "endDate": "2022-04-01",
+      "score": "100%",
+      "courses": [
+        "Spring",
+        "REST",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "SQL",
+        "Git"
+      ],
+      "summary": "Graduated with a perfect academic record while providing tutoring for fellow students to help achieve their academic goals."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "keywords": [
+        "Angular",
+        "React",
+        "TypeScript",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "keywords": [
+        "C#",
+        ".NET",
+        "ASP.NET",
+        "Java",
+        "Spring Boot",
+        "Python",
+        "Node.js",
+        "REST API Design",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Data Platforms & APIs",
+      "keywords": [
+        "Databricks",
+        "SQL",
+        "REST APIs",
+        "WebSockets"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "keywords": [
+        "Microsoft Azure",
+        "AWS",
+        "GitHub Actions",
+        "Docker",
+        "Kubernetes",
+        "Git"
+      ]
+    },
+    {
+      "name": "AI & LLM Integration",
+      "keywords": [
+        "LLM API Integration",
+        "AI-Assisted Development",
+        "Prompt Design",
+        "Developer Workflow Automation",
+        "Claude Code",
+        "OpenAI Codex"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI Workflow Automation Consulting",
+      "description": "Advised an enterprise software executive on integrating AI assistants with operational systems using LLM connectors and workflow automation.",
+      "highlights": [
+        "Designed AI-assisted workflows to summarize inbound emails, queue operational tasks, and generate recurring dashboards from connected systems.",
+        "Explored AI connectors and plugins to integrate APIs, enabling assistants to retrieve data and automate routine operational work.",
+        "Demonstrated how AI-assisted workflows can improve developer and operational productivity by automating repetitive tasks."
+      ],
+      "keywords": [
+        "LLM Workflows",
+        "AI Automation",
+        "API Integration",
+        "Claude",
+        "Productivity Automation"
+      ],
+      "roles": [
+        "AI Workflow Consultant"
+      ],
+      "entity": "Confidential Enterprise Client",
+      "type": "consulting"
+    },
+    {
+      "name": "Open Source Contributions to pandas_ta",
+      "description": "Contributed to pandas-ta, a financial technical analysis Python library, addressing critical issues and improving reliability.",
+      "highlights": [
+        "Found issues with future leakage and implemented effective fixes to ensure data integrity.",
+        "Implemented NumPy 2 updates to modernize the codebase and improve compatibility.",
+        "Delivered incremental improvements on various features, optimizing overall performance and code efficiency."
+      ],
+      "url": "https://github.com/twopirllc/pandas-ta",
+      "keywords": [
+        "Python",
+        "pandas_ta",
+        "Financial Analysis",
+        "Open Source"
+      ],
+      "roles": [
+        "Contributor"
+      ],
+      "entity": "pandas_ta Project",
+      "type": "Open Source"
+    },
+    {
+      "name": "Androcula VSCode Theme",
+      "description": "Creator of a modern VSCode theme inspired by Andromeda and Dracula.",
+      "highlights": [
+        "5-star rated theme",
+        "2k+ downloads and climbing"
+      ],
+      "startDate": "2023-02-23",
+      "url": "https://marketplace.visualstudio.com/items/?itemName=T3nt4c135.androcula",
+      "roles": [
+        "Creator",
+        "Designer"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

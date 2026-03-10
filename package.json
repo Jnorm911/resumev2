@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "export:resume": "node scripts/export_resume.js"
+  },
+  "devDependencies": {
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-even": "^0.26.1",
+    "jsonresume-theme-flat": "^0.3.7",
+    "jsonresume-theme-kendall": "^0.2.0",
+    "jsonresume-themeutils": "^1.4.3",
+    "puppeteer": "^24.37.5",
+    "resumed": "^6.1.0"
+  },
+  "dependencies": {
+    "jsonresume-theme-macchiato": "file:themes/macchiato"
+  }
+}
